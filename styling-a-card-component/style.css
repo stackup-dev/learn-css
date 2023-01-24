@@ -1,0 +1,161 @@
+/* IMPORTING FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+/* VARIABLES */
+:root {
+  --body-bg-gradient-clr-1: black;
+  --body-bg-gradient-clr-2: transparent;
+  --body-bg-image: url(https://images.pexels.com/photos/2387532/pexels-photo-2387532.jpeg);
+
+  --card-bg-clr: rgba(255,255,255,0.3);
+  --card-rounded-border: 1rem;
+
+  --tech-icon-bg-clr: rgba(255,255,255,0.2);
+
+  --elements-rounded-border: .25rem;
+
+  --border-clr: rgba(255,255,255,0.4);
+  --border-size: 1px;
+
+  --text-clr: rgb(255,255,255);
+  --primary-clr: rgb(255, 159, 28);
+  --secondary-clr: rgb(255, 191, 105);
+}
+
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* body LAYOUT */
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* body STYLES */
+body {
+  /* ADD YOUR CODE HERE */
+}
+
+
+/* .container LAYOUT */
+.container {
+  position: relative;
+}
+
+/* .card LAYOUT */
+.card {
+  padding: 2rem;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+/* .card STYLES */
+.card {
+  /* ADD YOUR CODE HERE */
+}
+
+/* .card-header LAYOUT */
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* .card-header-userinfo > p LAYOUT */
+.card-header-userinfo > p {
+  margin-top: .2rem;
+}
+
+/* .card-header-userinfo > button LAYOUT */
+.card-header-userinfo > button {
+  margin-top: .75rem;
+}
+
+/* button RESET */
+.card-invite-btn {
+  appearance: none;
+  border: none;
+  background: none;
+}
+
+/* .card-invite-btn STYLES */
+.card-invite-btn {
+  text-transform: uppercase;
+  font-size: .75rem;
+  
+  font-weight: bold;
+  padding: .5rem 1.25rem;
+
+  /* ADD YOUR CODE HERE */
+}
+
+/* .card-img STYLES */
+.card-img {
+  width: 8rem;
+
+  /* ADD YOUR CODE HERE */
+}
+
+/* .card-body LAYOUT */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+/* .card-paragraph LAYOUT */
+.card-paragraph {
+  margin-bottom: .5rem;
+}
+
+/* .card-tech-container LAYOUT */
+.card-tech-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.tech-icon {
+  padding: .5rem;
+
+  /* ADD YOUR CODE HERE */
+}
+
+.card-invite-btn:hover, .tech-icon:hover {
+  cursor: pointer;
+}
+
+/* .circle LAYOUT */
+.circle {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: -1;
+}
+
+.circle {
+  /* ADD YOUR CODE HERE */
+}
+
+/* .circle-top POSITION */
+.circle-top {
+  top: -75px;
+  left: -75px;
+}
+
+/* .circle-bottom POSITION */
+.circle-bottom {
+  bottom: -100px;
+  right: -50px;
+}
